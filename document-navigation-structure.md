@@ -1,4 +1,4 @@
-# Navigation Structure of CVS User Guide
+# Navigation Structure of CVS Content Editors' Guide
 
 This is the record of how the various sections are structured,
 and should be used by developers for reference, and updated when new pages are added.
@@ -11,7 +11,7 @@ The indentation is intended to indicate major sections, subsections and sub-subs
 
 ```none
 (000) Home (index.md)
-  (020) XXX (xxx-xxx.md)
+  (010) XXX (user-guide.md)
   (030) XXX (xxx-xxx.md)
   (060) Send feedback (send-feedback.md)
 ```

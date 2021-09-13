@@ -5,9 +5,9 @@ has_children: true
 nav_order: 000
 ---
 
-# CESSDA Vocabulary Service User Guide
+# CESSDA Vocabulary Service Content Editors' Guide
 
-This is the user guide for version x.x.x of the [CESSDA Vocabulary Service](https://vocabularies.cessda.eu/).
+This is the Content Editors' Guide for version x.x.x of the [CESSDA Vocabulary Service](https://vocabularies.cessda.eu/).
 
 It presents an overview of how to use the CESSDA Vocabulary Service (CVS) for XXX.
 
