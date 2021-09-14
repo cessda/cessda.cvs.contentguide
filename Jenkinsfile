@@ -1,5 +1,5 @@
 /*
-Copyright CESSDA ERIC 2017-2019
+Copyright CESSDA ERIC 2017-2021
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License.
@@ -19,7 +19,7 @@ pipeline {
 
 	environment {
 		productName = 'cvs'
-		componentName = 'userguide'
+		componentName = 'contentguide'
 		imageTag = "${docker_repo}/${productName}-${componentName}:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
 	}
 
@@ -64,7 +64,7 @@ pipeline {
 		}
 		stage('Deploy Nginx Container') {
 			steps {
-				build job: 'cessda.cvs.deploy/master', parameters: [string(name: 'userguide_image_tag', value: "${env.BRANCH_NAME}-${env.BUILD_NUMBER}")], wait: false
+				build job: 'cessda.cvs.deploy/master', parameters: [string(name: 'contentguide_image_tag', value: "${env.BRANCH_NAME}-${env.BUILD_NUMBER}")], wait: false
 			}
 			when { branch 'master' }
 		}

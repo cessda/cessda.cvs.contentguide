@@ -505,7 +505,7 @@ the rules of the DDI Alliance (CESSDA follows the same rules),
 detailed on the controlled vocabularies web page under the versioning
 policy:
 
-[http://www.ddialliance.org/controlled-vocabularies]{.ul}
+[DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies)
 
 Check version number (see sections 3.2.2 and 6 on Versioning),
 updating it if necessary. The 'Versions' tab will have details of all
@@ -637,7 +637,7 @@ the same across languages.
 
 Add your agency to the 'Translating agency' field and a link to the
 agency. Remember to save. Note: it is best to copy paste the link to
-the agency from the internet, the system does not add the http//:
+the agency from the internet, the system does not add the 'http//:'
 automatically.
 
 In the detailed page view, click on your two-letter language code on
@@ -828,7 +828,7 @@ system to version changes information.
 
 Further information on the meaning of these is on the DDI Alliance
 website under the versioning policy:
-[http://www.ddialliance.org/controlled-vocabularies]{.ul}
+[DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies)
 
 Again, you will need to go from draft status to review before
 publishing the next version of the translation.
@@ -1066,8 +1066,7 @@ meaning. A full list of changes, both major and minor, are available
 on the DDI Alliance website. CESSDA vocabularies have the same
 versioning policy.
 
-[http://www.ddialliance.org/controlled-vocabularies]{.ul} (open-out
-Versioning Policy).
+[DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies)
 
 For the source CV the version is made of two parts, 'n' and 'm', e.g.
 2.3. The first part of the version number (n) shows major changes and
@@ -1093,15 +1092,14 @@ start again from 1.
 
 Further details on versioning can be found at:
 
-[https://docs.google.com/document/d/11O5p_COvzSja3SZgL3hp6awAbs1gaGr5NNBuo7KLFdE/edi]{.ul}
-[t?usp=sharing]{.ul}
+[Versioning in CVS](https://docs.google.com/document/d/11O5p_COvzSja3SZgL3hp6awAbs1gaGr5NNBuo7KLFdE/edit?usp=sharing)
 
 ## 9 Contacts and feedback
 
 If you have any comments on DDI vocabularies, please send an email to
 a DDI CVG group member:
 
-[https://ddi-alliance.atlassian.net/wiki/display/DDI4/Controlled+Vocabularies+Working+Group]{.ul}.
+[DDI Alliance Controlled Vocabularies Working Group](https://ddi-alliance.atlassian.net/wiki/display/DDI4/Controlled+Vocabularies+Working+Group)
 
 If you have comments on CESSDA vocabularies or on the CESSDA
 Vocabulary Service, contact the CVS Content Contact Taina Jääskeläinen
