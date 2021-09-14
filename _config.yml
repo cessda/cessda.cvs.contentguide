@@ -39,7 +39,7 @@ exclude:
   - nginx/
   - node_modules/
   - README.md
-  - CONTRIBUTING.md
+  - CONTRIBUTORS.md
   - CHANGELOG.md
   - vendor/bundle/
   - vendor/cache/
