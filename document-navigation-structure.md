@@ -11,7 +11,12 @@ The indentation is intended to indicate major sections, subsections and sub-subs
 
 ```none
 (000) Home (index.md)
-  (010) XXX (content-guide.md)
-  (030) XXX (xxx-xxx.md)
-  (060) Send feedback (send-feedback.md)
+  (010) Vocabulary management (management.md)
+  (020) Vocabulary translations (translations.md)
+  (030) Identity and general tab (identity-general-tab.md)
+  (040) Usage tab (usage-tab.md)
+  (050) Licence and citation tab (licence-citation-tab.md)
+  (060) Lifecycle (lifecycle.md)
+  (070) Versioning (versioning.md)
+  (090) Send feedback (send-feedback.md)
 ```
