@@ -19,7 +19,7 @@ A vocabulary can be translated into multiple languages.
 
 You must have a CVS account and be logged into the system to add or edit a vocabulary.
 Depending on your role, you will be able to edit an SL vocabulary or one of the TLs at various stages in the workflow.
-Actions where extra care is required before finalizing are noted in red, bold type, like this sentence.
+**Actions where extra care is required before finalizing are noted in bold type, like this sentence.**
 
 ![CC-BY-4.0](images/cc-by.svg "CC-BY-4.0")
 This work is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
