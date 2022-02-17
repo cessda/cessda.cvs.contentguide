@@ -20,7 +20,7 @@ If your agency does not have a URN, the CESSDA CV URN
 (urn:ddi:int.cessda.cv:) can be used for 'Canonical URI'.
 
 Check after publication that the URI has appeared and is correct. If
-they are not, contact the CVS Content Contact. Do not edit them here.
+they are not, contact the Content Contact. Do not edit them here.
 
 In TL, you can also add or edit the translating agency and a link to
-it in this tab \[forthcoming\]. This does not affect versioning.
+it in this tab. This does not affect versioning.

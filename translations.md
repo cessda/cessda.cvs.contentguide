@@ -64,13 +64,12 @@ equivalences for terms in your language.
 
 ### Term definitions
 
-Translating code/term definitions is not mandatory. However, to ensure
-standardised and consistent metadata across countries and
-organisations, you need to provide access to the definitions either in
+Translating code/term definitions is not mandatory.
+However, to ensure standardised and consistent metadata across countries and
+organisations,
+it is recommended to provide access to the definitions either in
 English or in the local language for those producing documentation.
-When
-
-translating definitions, aim to translate the source as closely as
+When translating definitions, aim to translate the source as closely as
 possible. However, if a sentence in a definition proves very hard to
 translate, you can express it in a slightly different way, as long as
 you preserve its **meaning**. Check that the translated definition
@@ -150,7 +149,7 @@ published versions.
 
 If entering codes from an already existing controlled vocabulary, you
 can enter the codes by using the 'Import codes from CSV'
-functionality. This is quite challenging, so consult the CVS Content
+functionality. This is quite challenging, so consult the Content
 Contact before doing this. If it is a short vocabulary, it is safer to
 copy paste the translations.
 
@@ -188,7 +187,7 @@ quotation marks before and after them. Add any that are missing. Save.
 
 ![Image 22](images/image22.png "Image 22")
 
-6\. In the CVS tool, click on the button 'Import codes from CSV'.
+6\. Click on the button 'Import codes from CSV'.
 Browse to select the file. The file name will 'flash' and disappear.
 Close the window. You should now see a list of codes to be copied.
 
@@ -221,9 +220,7 @@ Version number: translations have a three-digit version number. The
 first two digits are the version number of the SL CV, and the third is
 a running number, regardless of whether the changes made to the
 translation are major or minor. When the first two digits change, i.e.
-you
-
-are translating a new SL CV version, the running number starts from 1.
+you are translating a new SL CV version, the running number starts from 1.
 So, for example, 2.1.2. is the second translation version of the SL
 version 2.1. The system generally suggests the correct number for
 translations so in most cases no changes in version number are needed
@@ -240,22 +237,22 @@ action drops the whole translation so any information entered will
 be gone forever. If needed, make a download/export of your translation
 first and save it.**
 
-See sections 4 and 5 for information about Identity and general, Usage
-and License and citation tabs.
+See [Usage tab](usage-tab.md) and [Licence and citation tab](licence-citation-tab.md)
+for information about the usage, copyright and licensing of CVs.
 
 ### Creating a new version of a translated, published CV
 
 To update the CV once it has been published, you need to create a new
-version and repeat the previous steps with slight variations. More
-information on versioning can be found in section 8.
+version and repeat the previous steps with slight variations.
+See [Versioning section](versioning.md) for more information.
 
 ![Image 25](images/image25.png "Image 25")
 
-![Image 26](images/image26.png "Image 26")
-
 You can edit CV level information, that is, the translated CV name, CV
 definition, translating agency information and vocabulary notes
-through the 'Edit TL'. **Make only one change at a time**, since now
+through the 'Edit TL'.
+
+**Make only one change at a time**, since now
 you need to add a change type in the pop-up and you can only choose
 one change type at a time. It is worthwhile to make changes in this
 manner, as this will allow the system to produce an accurate draft
@@ -293,8 +290,8 @@ changed:
 
 - Code definition rephrased
 
-Note: 'Code removed' and 'Code added' are automatically added by the
-system to version changes information.
+Note: When a code has been removed or added to the source, causing the same changes to the TL version,
+the information ‘Code removed’ and ‘Code added’ are automatically added by the system to the change log.
 
 Further information on the meaning of these is on the DDI Alliance
 website under the versioning policy:
@@ -304,10 +301,10 @@ Again, you will need to go from draft status to review before
 publishing the next version of the translation.
 
 You can drop this TL version of the CV when the status is DRAFT or
-REVIEW, by clicking on 'Delete TL ' button. Choose 'Delete TL CV' in
+REVIEW, by clicking on 'Delete TL' button. Choose 'Delete TL CV' in
 the pop-up if you want to drop the version.
 
-![Image 27](images/image27.png "Image 27")
+![Image 26](images/image26.png "Image 26")
 
 **Please note that this action does not change the status of the CV to
 the previous status (e.g. from REVIEW to DRAFT) but drops this
@@ -320,10 +317,10 @@ When you are satisfied with your edited translation, click on the
 'Publish TL' button. A publishing pop-up appears where you can enter
 information about the changes between this version and the previous
 one. If you have done one change at a time and have chosen the correct
-change type, the system already has a draft for you in the pop-up in
-Version changes field.
+change type, the system already has information on changes in the 'Change log'.
+You use information there to produce version history for the 'Version changes' field.
 
-![Image 28](images/image28.png "Image 28")
+![Image 27](images/image27.png "Image 27")
 
 Check that the 'Version changes' field includes correct information
 and all changes made. It is good to verify this by opening the
@@ -332,57 +329,46 @@ the current and previous version. If the code where the changes have
 occurred (e.g. if the descriptive term has changed) is missing, add the
 code and change type to the Version changes field manually.
 
-![Image 29](images/image29.png "Image 29")
+![Image 28](images/image28.png "Image 28")
 
 If a code value or descriptive term has been changed, users benefit
 from more detailed information in Version changes than what has been
 produced by the system. There it is best to first state the change
 type and then say that \[x\] has been changed to \[y\].
 
-[Advice on how to present changes in TL version history]{.ul}
+## Advice on how to present changes in TL version history
 
-If a code has been deleted:
-
-Code deleted: Health.HealthBehaviour deleted
+If a code has been deleted: *Code deleted: Health.HealthBehaviour deleted*.
 
 - This is probably produced by the system into the Version changes in
- the required format or can be copied from the SL version information.
- Code value should be used. It is enough to say that a code has been
- deleted, no need to inform that the descriptive term has been deleted
- as well.
+  the required format or can be copied from the SL version information.
+  Code value should be used. It is enough to say that a code has been
+  deleted, no need to inform that the descriptive term has been deleted
+  as well.
 
-If a code has been added:
-
-Code added: Health.DietAndNutrition
+If a code has been added: *Code added: Health.DietAndNutrition*
 
 - This is probably produced by the system into the Version changes in
  the required format or can be copied from the SL version information.
  Code value should be used. No need to say that the descriptive term
  has been added as well.
 
-If a code value has been changed:
-
-Code value changed: Health.Public changed into Health.PublicHealth
+If a code value has been changed: *Code value changed: Health.Public changed into Health.PublicHealth*
 
 - Easiest to copy the information from SL version history. For
  machine actionable updates of metadata, it is best to record both the
  old and the new code.
 
-If a code definition has been amended or rephrased:
+If a code definition has been amended or rephrased: *Code definition rephrased: Health.PhysicalFitnessAndExercise*
+  OR *Code definition amended with meaning change: Physical fitness and
+exercise*
 
-Code definition rephrased: Health.PhysicalFitnessAndExercise
+- Code definition changes may be language specific, so you
+ should enter only when these have changed in your own language. You
+ may also have changed the definition in TL when there were no changes
+ in the SL. You can use the code value or descriptive term.
 
-OR
-
-Code definition amended with meaning change: Physical fitness and
-exercise - Code definition changes may be language specific, so you
-should enter only when these have changed in your own language. You
-may also have changed the definition in TL when there were no changes
-in the SL. You can use the code value or descriptive term.
-
-If a descriptive term has been changed:
-
-Descriptive term changed: From x to y
+If a descriptive term has been changed: *Descriptive term changed: From x to y*
 
 - These are language specific, so you should enter only when these
  have changed in your own language. Use the old descriptive term in
@@ -395,8 +381,8 @@ previous version.For example, that you added definition translations
 in this version, or some other notes.
 
 Check that the version number is correct. For translations, each new
-version is incremented by '.1' - see section 6 for examples. The system
-normally suggests a correct number.
+version is incremented by '.1' - see [Versioning section](versioning.md) for examples.
+The system normally suggests a correct number.
 
 The information in version changes and version notes will appear in
 the 'Versions'' tab in the user interface and be visible to all. This
