@@ -8,11 +8,11 @@ nav_order: 010
 
 # {{ page.title }}
 
-## Creating and publishing a new SL CV
+## Creating and publishing a new source language CV
 
 Sign in (top right hand corner) and select 'Editor' from the top menu.
 All actions that you can perform are presented as a series of buttons
-in the list down the left hand side of the tool (depending on your
+in the list down the left hand side of the screen (depending on your
 account type, these may vary).
 
 - 'Add new CV' allows you to start a new CV from scratch.
@@ -38,14 +38,13 @@ Choose the Agency from the drop-down list - the most commonly used
 ones are CESSDA or DDI. The agency you can choose depends on your
 rights and role. If the Agency you require is not available you will
 need to discuss the possibility to add with the Content Administrator,
-that is, the CVS Content Contact (contact details at the end of the
-document).
+that is, the Content Contact.
 
 ### Language (source)
 
 Choose the source language; for both CESSDA and DDI CVs, this is
 English. Other languages are in the drop-down list in preparation for
-future use. The tool may also be used for in-house thesauri.
+future use. The Vocabulary Service may also be used for in-house thesauri.
 
 ### CV short name (code)
 
@@ -54,13 +53,13 @@ CV using the rules specified in the table. If you are entering a CV
 that has already been published elsewhere, the same short name used
 elsewhere should be used here. If you are entering a new vocabulary,
 please follow the rules laid down. If you try to enter a short name
-that already exists within the CVS, the system will prevent you from
+that already exists within the Vocabulary Service, the system will prevent you from
 saving it.
 
 Please check the short name carefully before saving in case of errors.
 **Important: read the code naming rules carefully first and take care
-to ensure that code is correct from the start** . As this code is the
-ID for the vocabulary, **it is no longer possible to edit it once it
+to ensure that code is correct from the start**. As this code is one of the
+IDs for the vocabulary, **it is no longer possible to edit it once it
 has been saved**.
 
 If you do make an error in the CV short name code, you should proceed as
@@ -85,7 +84,7 @@ the saved file. Ensure that you enter the same version number and
 version information as shown in your download. It is not possible to
 bring earlier versions back to the system. You need to send the saved
 file to translators and ask them to copy paste their translation.
-There is no copying functionality available within the CVS yet, so it
+There is no copying functionality available yet, so it
 is best **not** to make an error in the short name code, as recreating
 the CV will mean a lot of manual copying. You can access the deleted
 CV in the Editor.
@@ -98,6 +97,10 @@ CV in the Editor.
 | apply are:                                                          |
 | - the **CV short name**                                             |
 | - the **Code value**.                                               |
+|                                                                     |
+| For DDI and CESSDA, code values should be self-describing and are based on the human-readable descriptive  term in question. |
+| Code values for other agencies may be formed differently but need to be based on alphanumeric characters. |
+| Also  + - :  are accepted.                                          |
 | Code values should be self-describing and are based on the human-readable descriptive term in question.         |
 | Code values are created in the SL version. TL has the code values of the SL, and the values cannot be edited in TL.                   |
 | A code value is a single word or a concatenation of several words:  |
@@ -105,7 +108,7 @@ CV in the Editor.
 | - Only alphanumeric characters are allowed, as well as: + - :       |
 | - No slashes (/) are allowed in the code value: they should be replaced with 'Or', e.g. EventOrProcess, or left out altogether, if it seems a better alternative. |
 | - No abbreviations are allowed. Only a few exceptions are allowed in the case of acknowledged abbreviation code lists, such as the two-letter ISO code for the US.  |
-| Code values should be not too long, to ensure readability. There is no hard rule, but it is reasonable to use no more than 5 words and 50 characters. In the CVS tool, if spaces are added within a code, the system will automatically remove them.                          |
+| Code values should be not too long, to ensure readability. There is no hard rule, but it is reasonable to use no more than 5 words and 50 characters. If spaces are added within a code, the system will automatically remove them.                          |
 | The code value is just a code value, and its purpose is to be machine-actionable. Search interfaces should search on the list of captions (descriptive terms) and/or definitions i.e. the human-readable part. |
 | The same instructions apply for the CV short names. For instance, the short name of Mode of Collection vocabulary should be 'ModeOfCollection'. |
 |                                                                     |
@@ -139,20 +142,15 @@ There are now several actions you can take.
 
 ![Image 2](images/image2.png "Image 2")
 
-You can make changes to the vocabulary level fields you have already
-added by using the 'Edit SL en' button (en=English). Make one change at
-a time, choose a change type and remember to save. Doing one change at a
-time will allow the system to produce a correct version history
-information for you in the publishing pop-up later.
+You can make changes to the vocabulary level fields you have already added by using the ‘Edit SL en’ button (en=English).
+If you close the pop-up without saving,  no changes will be made.
 
-If you close the pop-up without saving, no changes will be made.
-
-![Image 2](images/image3.png "Image 3")
+![Image 3](images/image3.png "Image 3")
 
 You can choose to delete your whole draft CV at any point before
 publication. Click on 'Delete CV.' **Be careful with Delete CV; since
 this is the first ever version of the vocabulary, the whole CV will be
-erased. If needed, save an download/export of the draft CV in your
+erased. If needed, save a download/export of the draft CV in your
 files before deleting.** Clicking on 'Cancel' in the deleting pop-up
 will retain the CV.
 
@@ -160,46 +158,19 @@ will retain the CV.
 
 'Add code' allows you to add codes (terms) within the CV. The system
 adds the new code to the end of the vocabulary. Complete the 'Code
-value' field using the rules stated above (pages 5-6), add the
+value' field using the rules stated above, add the
 descriptive term and definition, and click Save. If you like to see
 the code on one line in the Details tab, you can extend column length
 by dragging on the line.
 
-The Editor puts in numbers in front of the code. These are just for
-checking purposes, they will not be displayed in the published
-vocabularies in the Home view, so you can ignore them.
-
 ## Creating a hierarchy
 
 CVs can be hierarchical. First, add the new code using the 'Add code'.
-If there are already other codes entered, you can create a hierarchy
-in this pop-up already. Another option is to do it later by using the
-'Move code' action button.
+Then ‘Move code’ action can be used to create a hierarchy.
 
 **Note that in the code value element only the value for the
 individual term is to be entered in the code pop-up; the hierarchy in
 the code (i.e. broader term code value) is added by the system.**
-
-### Creating hierarchy in the 'Add code' pop-up
-
-![Image 5](images/image5.png "Image 5")
-
-If you want your new code to be the last one in the code list, just
-click on 'Save' after you have entered the code-level information needed.
-You can arrange codes and hierarchy later using the 'Move code'
-button.
-
-If you want to place your new code somewhere else in the list already
-in this pop-up: click on the code you want to move your new code next
-to and select from the blue action buttons whether you want to place
-your new code as a child or as next or following code at the same
-level as the code you clicked. The code list will change accordingly.
-Note that the system will add hierarchy to the code value if you make
-it a child, adding the broader term code value in front of your new
-code in code value. If you choose to select your new code to be
-inserted before or after a child code, it will also become a child.
-If you are happy with the order, save. If not, use the buttons to
-arrange further.
 
 Using 'Move code': Click on the code in the table in the Details tab, and
 choose 'Move code' from the action buttons. In the moving pop-up,
@@ -214,7 +185,7 @@ on *CodeGreen* in the list on the right and select 'Insert as child'.
 Now you see in the Code List the change made, with hierarchy
 introduced into the code and can save.
 
-If you now want *CodeRed* to be a child of *CodeGreen* as well but to
+If you now want *CodeRed* to be another child of *CodeGreen* but to
 be placed above *CodeYellow*, click on *CodeRed* in the Details tab
 table, and select 'Move code' from the actions. In the moving pop-up,
 click on *CodeGreen.CodeYellow* and select 'Insert before' as the
@@ -246,7 +217,7 @@ rearrange the hierarchy later.
 
 If entering codes from an already existing controlled vocabulary, you
 can enter the codes by using the 'Import codes from CSV'
-functionality. This is quite complicated, so contact the CVS Content
+functionality. This is quite complicated, so contact the Content
 Contact first.
 
 ![Image 9](images/image9.png "Image 9")
@@ -284,13 +255,13 @@ save.
 
 ![Image 11](images/image11.png "Image 11")
 
-5\. In the CVS tool, click on the button 'Import codes from CSV'.
+6\. Click on the button 'Import codes from CSV'.
 Browse to select the file. The file name will 'flash' and disappear.
 Close the window. You should now see a list of codes to be copied. If
 not copied, check that you have the quotation marks in right places
 and no slashes (/) within definitions.
 
-6\. Click on 'Import codes'. Browse and select the CSV file. You will
+7\. Click on 'Import codes'. Browse and select the CSV file. You will
 see a table displaying the codes to be added. Now either click on
 'Import codes', or cancel.
 
@@ -303,6 +274,8 @@ Once all the codes have been added, ordered and any changes have been
 made the CV is ready to be reviewed by others with relevant roles.
 People with contributor roles can view and amend the CV in 'Draft'
 status.
+Alternatively, you can download your draft vocabulary in PDF or HTML
+format in the ‘Export/Download’ tab  and ask others to review it.
 
 When the vocabulary has been reviewed, change the status to 'Review'.
 Now persons with a contributor status can view the vocabulary but no
@@ -323,7 +296,7 @@ including proofing all text, adding usage for vocabularies and
 checking the licence is correct. Double-check that the version number
 is correct. If this is a new controlled vocabulary that has never been
 published anywhere before, the version is 1.0. If it is already
-published elsewhere but new to the CVS tool, the current version
+published elsewhere but new to the Vocabulary Service, the current version
 number of the controlled vocabulary should be added, whatever it is.
 
 You can save your changes before publishing. Once the vocabulary is
@@ -331,18 +304,18 @@ ready to publish, click on the Publish SL button.
 
 ![Image 13](images/image13.png "Image 13")
 
-Publishing allows this version of the CV to be viewed by all. Now
-translations can be added to this published CV, or a new version of
+Publishing allows this version of the CV to be viewed by all.
+Now translations can be added to this published CV, or a new version of
 the published CV can be created.
 
-See sections 4 and 5 for information about the Usage and Copyright and
-Licence tabs.
+See [Usage tab](usage-tab.md) and [Licence and citation tab](licence-citation-tab.md)
+for information about the usage, copyright and licensing of CVs.
 
 ## Creating a new version of a SL CV
 
 Once a CV has been published the SL cannot be edited; only
 translations can be added. To update the SL of a published CV, you
-need to create a new version. See section 3.3 on Versioning for
+need to create a new version. See [Versioning section](versioning.md) for
 details on whether this will be a major or minor version of the CV.
 
 ![Image 14](images/image14.png "Image 14")
@@ -377,10 +350,10 @@ change, selected from the drop-down list:
 
 **Only one change can be made at a time - select the change type and
 save.** If you need to make more CV-level changes, open 'edit SL'
-again and make the next change, select the change type and save. As
-the system only allows users to enter one change type at a time, it is
-only possible to record all by making the changes separately. The
-change logs needed for version history will then include everything.
+again and make the next change, select the change type and save.
+As the system only allows users to enter one change type at a time, it is
+only possible to record all by making the changes separately.
+The change logs needed for producing the version history in the publication pop-up will then include everything.
 If you accidentally made more than one change at a time, enter one
 change type and make a note for yourself to add the other change
 manually later to version change information.
@@ -430,10 +403,9 @@ the previous one.
 Finalise 'Version changes' field manually by adding any missing
 information, for example, in which codes the changes have taken place.
 You can see this information when you click on the *Show comparison with
-previous version* section, as there are change logs at the end of the
-comparison view. Verify from the comparison and change logs that all the changes
-have been documented to version changes. You can also now correct an
-error in change type in this field as it is editable.
+previous version* section or from the change logs.
+Verify from the comparison and change logs that all the changes have been documented to version changes and none are duplicated.
+You can also now correct an error in change type in this field as it is editable.
 
 Free-text descriptions added to each change are shown by the system at
 the top. Consider whether to add them to version notes. You can
@@ -446,13 +418,13 @@ policy:
 
 [DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies)
 
-Check version number (see sections 3.2.2 and 6 on Versioning),
+Check version number (see [Versioning section](versioning.md)),
 updating it if necessary. The 'Versions' tab will have details of all
 changes to the version visible for users.
 
 It is possible to add or edit information in version notes and version
 changes in the Versions tab after publication, so you can correct
-mistakes made in version information after publication without this
+mistakes made in version information after publication in the Editor without this
 affecting the version number.
 
 ## Deleting a SL CV version or the whole vocabulary

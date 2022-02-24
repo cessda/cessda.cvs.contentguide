@@ -14,7 +14,8 @@ A major change could be adding or deleting a code, or making changes to the code
 Minor changes are, for example, changing the text in a definition without altering the meaning.
 A full list of changes, both major and minor, are available on the DDI Alliance website.
 CESSDA vocabularies have the same versioning policy.
-[http://www.ddialliance.org/controlled-vocabularies](http://www.ddialliance.org/controlled-vocabularies) (open-out Versioning Policy).
+Go to [http://www.ddialliance.org/controlled-vocabularies](http://www.ddialliance.org/controlled-vocabularies)
+and expand the Versioning Policy section.
 
 For the source CV the version is made of two parts, ‘n’ and ‘m’, e.g. 2.3.
 The first part of the version number (n) shows major changes and the second (m) minor changes.
