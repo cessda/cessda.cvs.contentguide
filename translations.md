@@ -191,8 +191,8 @@ quotation marks before and after them. Add any that are missing. Save.
 Browse to select the file. The file name will 'flash' and disappear.
 Close the window. You should now see a list of codes to be copied.
 
-7\. Click on 'Import codes'. Browse and select the CSV file. You will
-see a table displaying the codes to be added. Now either click on
+7\. In the CESSDA Vocabulary Service, click on 'Import codes'. Browse and select the CSV file.
+You will see a table displaying the codes to be added. Now either click on
 'Import codes', or cancel.
 
 Once you have translated the descriptive terms and definitions, and
@@ -237,20 +237,22 @@ action drops the whole translation so any information entered will
 be gone forever. If needed, make a download/export of your translation
 first and save it.**
 
-See [Usage tab](usage-tab.md) and [Licence and citation tab](licence-citation-tab.md)
+See [Usage tab](usage-tab.html) and [Licence and citation tab](licence-citation-tab.html)
 for information about the usage, copyright and licensing of CVs.
 
 ### Creating a new version of a translated, published CV
 
 To update the CV once it has been published, you need to create a new
 version and repeat the previous steps with slight variations.
-See [Versioning section](versioning.md) for more information.
+See [Versioning section](versioning.html) for more information.
 
 ![Image 25](images/image25.png "Image 25")
 
 You can edit CV level information, that is, the translated CV name, CV
 definition, translating agency information and vocabulary notes
 through the 'Edit TL'.
+
+![Image 18](images/image18.png "Image 18")
 
 **Make only one change at a time**, since now
 you need to add a change type in the pop-up and you can only choose
@@ -319,6 +321,9 @@ information about the changes between this version and the previous
 one. If you have done one change at a time and have chosen the correct
 change type, the system already has information on changes in the 'Change log'.
 You use information there to produce version history for the 'Version changes' field.
+If you made the same type of change more than once to the same concept,
+the Change log will have the same version change twice, so take care not to have duplicates
+in the ‘Version changes’ information.
 
 ![Image 27](images/image27.png "Image 27")
 
@@ -360,7 +365,8 @@ If a code value has been changed: *Code value changed: Health.Public changed int
  old and the new code.
 
 If a code definition has been amended or rephrased: *Code definition rephrased: Health.PhysicalFitnessAndExercise*
-  OR *Code definition amended with meaning change: Physical fitness and
+
+OR *Code definition amended with meaning change: Physical fitness and
 exercise*
 
 - Code definition changes may be language specific, so you
@@ -381,7 +387,7 @@ previous version.For example, that you added definition translations
 in this version, or some other notes.
 
 Check that the version number is correct. For translations, each new
-version is incremented by '.1' - see [Versioning section](versioning.md) for examples.
+version is incremented by '.1' - see [Versioning section](versioning.html) for examples.
 The system normally suggests a correct number.
 
 The information in version changes and version notes will appear in

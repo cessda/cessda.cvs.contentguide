@@ -33,6 +33,3 @@ the next version of a translated CV is created by adding one to the previous val
 So, following the previous example, the next version of the German CV will be 3.4.2.
 
 When the source CV version number changes, the translated version will start again from 1.
-
-Further details on versioning can be found at:
-[https://docs.google.com/document/d/11O5p_COvzSja3SZgL3hp6awAbs1gaGr5NNBuo7KLFdE/edit?usp=sharing](https://docs.google.com/document/d/11O5p_COvzSja3SZgL3hp6awAbs1gaGr5NNBuo7KLFdE/edit?usp=sharing)

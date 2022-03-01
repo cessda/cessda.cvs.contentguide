@@ -245,7 +245,7 @@ quotation marks with ' ('street').
 5\. Open the CSV file in Notepad++, Oxygen or another text editor
 where you can see how it displays. Check that you do not have any
 information apart from the column headers in the first row (see
-above). Code values, terms and definitions need to be separated by a
+the above image). Code values, terms and definitions need to be separated by a
 comma, so if other characters such as semi-colons (;) have been used,
 they will need to be replaced with commas (,). If needed, convert
 encoding to UTF-8 (note that some basic text editors do not have the
@@ -255,7 +255,7 @@ save.
 
 ![Image 11](images/image11.png "Image 11")
 
-6\. Click on the button 'Import codes from CSV'.
+6\. In the CESSDA Vocabulary Service, click on the button 'Import codes from CSV'.
 Browse to select the file. The file name will 'flash' and disappear.
 Close the window. You should now see a list of codes to be copied. If
 not copied, check that you have the quotation marks in right places
@@ -308,14 +308,14 @@ Publishing allows this version of the CV to be viewed by all.
 Now translations can be added to this published CV, or a new version of
 the published CV can be created.
 
-See [Usage tab](usage-tab.md) and [Licence and citation tab](licence-citation-tab.md)
+See [Usage tab](usage-tab.html) and [Licence and citation tab](licence-citation-tab.html)
 for information about the usage, copyright and licensing of CVs.
 
 ## Creating a new version of a SL CV
 
 Once a CV has been published the SL cannot be edited; only
 translations can be added. To update the SL of a published CV, you
-need to create a new version. See [Versioning section](versioning.md) for
+need to create a new version. See [Versioning section](versioning.html) for
 details on whether this will be a major or minor version of the CV.
 
 ![Image 14](images/image14.png "Image 14")
@@ -405,7 +405,7 @@ information, for example, in which codes the changes have taken place.
 You can see this information when you click on the *Show comparison with
 previous version* section or from the change logs.
 Verify from the comparison and change logs that all the changes have been documented to version changes and none are duplicated.
-You can also now correct an error in change type in this field as it is editable.
+Now you can also correct any errors in change type as this field is editable.
 
 Free-text descriptions added to each change are shown by the system at
 the top. Consider whether to add them to version notes. You can
@@ -415,10 +415,9 @@ Check that all changes that have been made are documented according to
 the rules of the DDI Alliance (CESSDA follows the same rules),
 detailed on the controlled vocabularies web page under the versioning
 policy:
+[DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies).
 
-[DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies)
-
-Check version number (see [Versioning section](versioning.md)),
+Check version number (see [Versioning section](versioning.html)),
 updating it if necessary. The 'Versions' tab will have details of all
 changes to the version visible for users.
 

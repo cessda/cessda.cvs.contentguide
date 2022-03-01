@@ -21,10 +21,9 @@ If the licence you need is not in the system, contact the Content Administrator 
 
 Licence information is mandatory and the system prevents publication if it is not entered for the CV.
 
-DDI and CESSDA vocabularies have the same licence in both source and target vocabularies
-(Creative Commons Attribution 4.0 International).
+DDI and CESSDA vocabularies have the same licence in both source and target vocabularies (Creative Commons Attribution 4.0 International).
+When entering a translation for the first time, take care to select the same licence as SL.
+Currently, the system offers this by default.
 
-Target language licence: Licence information is inherited from the source.
-It can be edited but generally there is no need for editing.
-DDI and CESSDA vocabularies have the same licence in both source and target vocabularies
-(Creative Commons Attribution 4.0 International).
+Target language licence in general: Licence information is inherited from the source.
+It can be edited if the licence for the source and target language differ.
