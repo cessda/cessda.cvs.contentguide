@@ -18,5 +18,6 @@ The indentation is intended to indicate major sections, subsections and sub-subs
   (050) Licence and citation tab (licence-citation-tab.md)
   (060) Lifecycle (lifecycle.md)
   (070) Versioning (versioning.md)
+  (080) Import codes from CSV file (import-from-csv.md)
   (090) Send feedback (send-feedback.md)
 ```

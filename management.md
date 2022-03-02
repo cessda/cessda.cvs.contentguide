@@ -83,7 +83,7 @@ language versions that have been created.
 the saved file. Ensure that you enter the same version number and
 version information as shown in your download. It is not possible to
 bring earlier versions back to the system. You need to send the saved
-file to translators and ask them to copy paste their translation.
+file to translators and ask them to copy and paste their translation.
 There is no copying functionality available yet, so it
 is best **not** to make an error in the short name code, as recreating
 the CV will mean a lot of manual copying. You can access the deleted
@@ -216,57 +216,11 @@ insert them before or after another broader code first. You can
 rearrange the hierarchy later.
 
 If entering codes from an already existing controlled vocabulary, you
-can enter the codes by using the 'Import codes from CSV'
-functionality. This is quite complicated, so contact the Content
-Contact first.
+can enter the codes by using the 'Import codes from CSV' functionality
+(see [Import codes from CSV section](import-from-csv.html) for step by step details of how to do this).
+This is quite complicated, so contact the Content Contact first.
 
 ![Image 9](images/image9.png "Image 9")
-
-Codes need to be in csv format. Instructions for preparing DDI and
-CESSDA vocabularies for import from Excel to csv:
-
-1\. Open a new Excel spreadsheet, copy paste the code values, terms
-and descriptions from the existing Excel format of the CV, using
-'Paste special' and selecting Unicode text (UTF-8).
-
-2\. Add a new row at the top of the file and add suitable text in each
-of the three columns to create column headers (e.g. 'Code value' in
-column A, 'Term' in column B and 'Description' in column C). Your
-Excel file should now look like this:
-
-![Image 10](images/image10.png "Image 10")
-
-3\. Check the descriptions. If there are any words with quotation
-marks around them like "street" in the image above), replace the
-quotation marks with ' ('street').
-
-4\. Save the Excel in CSV (comma delimited) format.
-
-5\. Open the CSV file in Notepad++, Oxygen or another text editor
-where you can see how it displays. Check that you do not have any
-information apart from the column headers in the first row (see
-above). Code values, terms and definitions need to be separated by a
-comma, so if other characters such as semi-colons (;) have been used,
-they will need to be replaced with commas (,). If needed, convert
-encoding to UTF-8 (note that some basic text editors do not have the
-option to convert the encoding). Check that description texts have
-quotation marks before and after them. Add any that are missing, and
-save.
-
-![Image 11](images/image11.png "Image 11")
-
-6\. Click on the button 'Import codes from CSV'.
-Browse to select the file. The file name will 'flash' and disappear.
-Close the window. You should now see a list of codes to be copied. If
-not copied, check that you have the quotation marks in right places
-and no slashes (/) within definitions.
-
-7\. Click on 'Import codes'. Browse and select the CSV file. You will
-see a table displaying the codes to be added. Now either click on
-'Import codes', or cancel.
-
-Note that the import only brings in code-level information, all else
-needs to be added manually.
 
 ## Reviewing the CV
 
@@ -308,14 +262,14 @@ Publishing allows this version of the CV to be viewed by all.
 Now translations can be added to this published CV, or a new version of
 the published CV can be created.
 
-See [Usage tab](usage-tab.md) and [Licence and citation tab](licence-citation-tab.md)
+See [Usage tab](usage-tab.html) and [Licence and citation tab](licence-citation-tab.html)
 for information about the usage, copyright and licensing of CVs.
 
 ## Creating a new version of a SL CV
 
 Once a CV has been published the SL cannot be edited; only
 translations can be added. To update the SL of a published CV, you
-need to create a new version. See [Versioning section](versioning.md) for
+need to create a new version. See [Versioning section](versioning.html) for
 details on whether this will be a major or minor version of the CV.
 
 ![Image 14](images/image14.png "Image 14")
@@ -405,7 +359,7 @@ information, for example, in which codes the changes have taken place.
 You can see this information when you click on the *Show comparison with
 previous version* section or from the change logs.
 Verify from the comparison and change logs that all the changes have been documented to version changes and none are duplicated.
-You can also now correct an error in change type in this field as it is editable.
+Now you can also correct any errors in change type as this field is editable.
 
 Free-text descriptions added to each change are shown by the system at
 the top. Consider whether to add them to version notes. You can
@@ -415,10 +369,9 @@ Check that all changes that have been made are documented according to
 the rules of the DDI Alliance (CESSDA follows the same rules),
 detailed on the controlled vocabularies web page under the versioning
 policy:
+[DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies).
 
-[DDI Alliance Controlled Vocabularies](http://www.ddialliance.org/controlled-vocabularies)
-
-Check version number (see [Versioning section](versioning.md)),
+Check version number (see [Versioning section](versioning.html)),
 updating it if necessary. The 'Versions' tab will have details of all
 changes to the version visible for users.
 

@@ -107,7 +107,7 @@ changed as it is used to link the translations to the source CV and is
 the same across languages.
 
 Add your agency to the 'Translating agency' field and a link to the
-agency. Remember to save. Note: it is best to copy paste the link to
+agency. Remember to save. Note: it is best to copy and paste the link to
 the agency from the internet, the system does not add the 'http//:'
 automatically.
 
@@ -148,52 +148,12 @@ edit the code-level information. Versioning only applies between
 published versions.
 
 If entering codes from an already existing controlled vocabulary, you
-can enter the codes by using the 'Import codes from CSV'
-functionality. This is quite challenging, so consult the Content
-Contact before doing this. If it is a short vocabulary, it is safer to
-copy paste the translations.
+can enter the codes by using the 'Import codes from CSV' functionality
+(see [Import codes from CSV section](import-from-csv.html) for step by step details of how to do this).
+This is quite complicated, so contact the Content Contact first.
+If it is a short vocabulary, it is safer to copy and paste the translations.
 
 ![Image 20](images/image20.png "Image 20")
-
-Codes need to be in csv format. Instructions for preparing DDI and
-CESSDA vocabularies for import from Excel to csv:
-
-1\. Open a new Excel spreadsheet, copy paste the code values, terms
-and descriptions from the existing Excel format of the CV, using
-'Paste special' and selecting Unicode text (UTF-8).
-
-2\. Add a new row at the top of the file and add suitable text in each
-of the three columns to create column headers (e.g. 'Code value' in
-column A, 'Term' in column B and 'Description' in column C). Your
-Excel file should now look like this:
-
-![Image 21](images/image21.png "Image 21")
-
-3\. Check the descriptions. If there are any words with quotation
-marks around them (like "street" in the image above), replace the
-quotation marks with ' ('street').
-
-4\. Save the Excel in CSV (comma delimited) format.
-
-5\. Open the CSV file in Notepad++, Oxygen or another text editor
-where you can see how it displays. Check that you do not have any
-information apart from the column headers in the first row (see
-above). Code values, terms and definitions need to be separated by a
-comma, so if other characters such as semi-colons (;) have been used,
-they will need to be replaced with commas (,). If needed, **convert**
-encoding to UTF-8 (note that some basic text editors do not have the
-option to convert the encoding). Check that description texts have
-quotation marks before and after them. Add any that are missing. Save.
-
-![Image 22](images/image22.png "Image 22")
-
-6\. Click on the button 'Import codes from CSV'.
-Browse to select the file. The file name will 'flash' and disappear.
-Close the window. You should now see a list of codes to be copied.
-
-7\. Click on 'Import codes'. Browse and select the CSV file. You will
-see a table displaying the codes to be added. Now either click on
-'Import codes', or cancel.
 
 Once you have translated the descriptive terms and definitions, and
 are happy with your translations, you can ask people with a
@@ -237,20 +197,22 @@ action drops the whole translation so any information entered will
 be gone forever. If needed, make a download/export of your translation
 first and save it.**
 
-See [Usage tab](usage-tab.md) and [Licence and citation tab](licence-citation-tab.md)
+See [Usage tab](usage-tab.html) and [Licence and citation tab](licence-citation-tab.html)
 for information about the usage, copyright and licensing of CVs.
 
 ### Creating a new version of a translated, published CV
 
 To update the CV once it has been published, you need to create a new
 version and repeat the previous steps with slight variations.
-See [Versioning section](versioning.md) for more information.
+See [Versioning section](versioning.html) for more information.
 
 ![Image 25](images/image25.png "Image 25")
 
 You can edit CV level information, that is, the translated CV name, CV
 definition, translating agency information and vocabulary notes
 through the 'Edit TL'.
+
+![Image 18](images/image18.png "Image 18")
 
 **Make only one change at a time**, since now
 you need to add a change type in the pop-up and you can only choose
@@ -319,6 +281,9 @@ information about the changes between this version and the previous
 one. If you have done one change at a time and have chosen the correct
 change type, the system already has information on changes in the 'Change log'.
 You use information there to produce version history for the 'Version changes' field.
+If you made the same type of change more than once to the same concept,
+the Change log will have the same version change twice, so take care not to have duplicates
+in the ‘Version changes’ information.
 
 ![Image 27](images/image27.png "Image 27")
 
@@ -360,7 +325,8 @@ If a code value has been changed: *Code value changed: Health.Public changed int
  old and the new code.
 
 If a code definition has been amended or rephrased: *Code definition rephrased: Health.PhysicalFitnessAndExercise*
-  OR *Code definition amended with meaning change: Physical fitness and
+
+OR *Code definition amended with meaning change: Physical fitness and
 exercise*
 
 - Code definition changes may be language specific, so you
@@ -381,7 +347,7 @@ previous version.For example, that you added definition translations
 in this version, or some other notes.
 
 Check that the version number is correct. For translations, each new
-version is incremented by '.1' - see [Versioning section](versioning.md) for examples.
+version is incremented by '.1' - see [Versioning section](versioning.html) for examples.
 The system normally suggests a correct number.
 
 The information in version changes and version notes will appear in
