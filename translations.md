@@ -150,24 +150,20 @@ published versions.
 If entering codes from an already existing controlled vocabulary, you
 can enter the codes by using the 'Import codes from CSV' functionality
 (see [Import codes from CSV section](import-from-csv.html) for step by step details of how to do this).
-This is quite complicated, so contact the Content Contact first.
+This is quite complicated, so contact the Service Owner first.
 If it is a short vocabulary, it is safer to copy and paste the translations.
 
 ![Image 20](images/image20.png "Image 20")
 
 Once you have translated the descriptive terms and definitions, and
-are happy with your translations, you can ask people with a
-contributor role to review and possibly amend the vocabulary. It may,
-however, be simpler and safer to just make an export of your draft CV
+are happy with your translations, you can make an export of your draft CV
 and ask people to comment on that. It removes the need to give them
 access rights and roles.
 
 ![Image 23](images/image23.png "Image 23")
 
 When changes have been agreed, change the status from 'Draft' to
-'Review' and finalise the CV. Contributors can see the CVs in Review
-status but they do not have editing rights anymore. When all is ready,
-you can publish.
+'Review' and finalise the CV. When all is ready, you can publish.
 
 ![Image 24](images/image24.png "Image 24")
 

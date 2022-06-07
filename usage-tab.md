@@ -49,4 +49,4 @@ information manually.
 
 If you amend the usage information in the SL, it is best to copy this
 amended information to the TLs as well, at least for CESSDA and DDI
-vocabularies, or inform the Content Contact.
+vocabularies, or inform the Service Owner.
