@@ -10,19 +10,23 @@ nav_order: 010
 
 ## Creating and publishing a new source language CV
 
+To create a new vocabulary you need to have SL admin rights in an agency.
+A Service Owner can create an agency, add the agency link, agency logo and URIs to the agency information.
+The maximum size for the logo provided is 2MB, and the recommended resolution is width 240 pixels and height 75 pixels.
+
 Sign in (top right hand corner) and select 'Editor' from the top menu.
 All actions that you can perform are presented as a series of buttons
 in the list down the left hand side of the screen (depending on your
-account type, these may vary).
+user role, these may vary).
 
-- 'Add new CV' allows you to start a new CV from scratch.
+- 'Add CV' allows you to start a new CV from scratch.
 
 - If you click on one of the listed CVs, you will see 'CV actions'
   that allow you to make changes to the vocabulary as a whole,
   including options to add a new CV, add a translation,
   create a new version and delete a version of the vocabulary or the whole vocabulary.
 
-For now, Choose 'Add new CV'.
+For now, Choose 'Add CV'.
 
 A new draft with a version number 1.0 DRAFT is created. You can edit
 this draft using the editing buttons.
@@ -34,27 +38,31 @@ asterisk.
 
 ### Agency
 
-Choose the Agency from the drop-down list - the most commonly used
-ones are CESSDA or DDI. The agency you can choose depends on your
+Choose your Agency from the drop-down list. The agency you can choose depends on your
 rights and role. If the Agency you require is not available you will
-need to discuss the possibility to add with the Content Administrator,
-that is, the Content Contact.
+need to discuss the possibility to add it with the Content Administrator,
+that is, the Service Owner of the CESSDA Vocabulary Service.
 
 ### Language (source)
 
 Choose the source language; for both CESSDA and DDI CVs, this is
-English. Other languages are in the drop-down list in preparation for
-future use. The Vocabulary Service may also be used for in-house thesauri.
+English. Other languages are available in the drop-down list.
+The Vocabulary Service may also be used for in-house thesauri.
 
 ### CV short name (code)
 
 This is a machine-actionable field. Add the short name (Code) for the
-CV using the rules specified in the table. If you are entering a CV
+CV. If you are entering a CV
 that has already been published elsewhere, the same short name used
-elsewhere should be used here. If you are entering a new vocabulary,
-please follow the rules laid down. If you try to enter a short name
+elsewhere should be used here. If you try to enter a short name
 that already exists within the Vocabulary Service, the system will prevent you from
 saving it.
+
+The short name can be based on the human readable vocabulary name.
+For instance, the short name of Mode of Collection vocabulary would be ‘ModeOfCollection’.
+It is formed by putting the words together and starting each word with an upper case character.
+The system only allows alphanumeric characters, as well as '+' '-' ':' characters.
+Using abbreviations is not recommended.
 
 Please check the short name carefully before saving in case of errors.
 **Important: read the code naming rules carefully first and take care
@@ -88,35 +96,6 @@ There is no copying functionality available yet, so it
 is best **not** to make an error in the short name code, as recreating
 the CV will mean a lot of manual copying. You can access the deleted
 CV in the Editor.
-
-| **Rules for creating code values for source language vocabularies** |
-| ------------------------------------------------------------------- |
-| *(adapted from the original rules created by Joachim Wackerow)*     |
-|                                                                     |
-| Code values within CESSDA Vocabulary Service to which these rules   |
-| apply are:                                                          |
-| - the **CV short name**                                             |
-| - the **Code value**.                                               |
-|                                                                     |
-| For DDI and CESSDA, code values should be self-describing and are based on the human-readable descriptive  term in question. |
-| Code values for other agencies may be formed differently but need to be based on alphanumeric characters. |
-| Also  + - :  are accepted.                                          |
-| Code values should be self-describing and are based on the human-readable descriptive term in question.         |
-| Code values are created in the SL version. TL has the code values of the SL, and the values cannot be edited in TL.                   |
-| A code value is a single word or a concatenation of several words:  |
-| - Each word starts with an upper case character.                    |
-| - Only alphanumeric characters are allowed, as well as: + - :       |
-| - No slashes (/) are allowed in the code value: they should be replaced with 'Or', e.g. EventOrProcess, or left out altogether, if it seems a better alternative. |
-| - No abbreviations are allowed. Only a few exceptions are allowed in the case of acknowledged abbreviation code lists, such as the two-letter ISO code for the US.  |
-| Code values should be not too long, to ensure readability. There is no hard rule, but it is reasonable to use no more than 5 words and 50 characters. If spaces are added within a code, the system will automatically remove them.                          |
-| The code value is just a code value, and its purpose is to be machine-actionable. Search interfaces should search on the list of captions (descriptive terms) and/or definitions i.e. the human-readable part. |
-| The same instructions apply for the CV short names. For instance, the short name of Mode of Collection vocabulary should be 'ModeOfCollection'. |
-|                                                                     |
-| *Hierarchical CVs*                                                  |
-| One code value exists for each hierarchical level. The upper level values (broader term values) are repeated. The concatenation of the codes of all levels are used as an allowed value in DDI. The separator between the levels is a dot. Examples:                    |
-| - Longitudinal.Panel.Continuous                                     |
-| - SelfAdministeredQuestionnaire.WebBased                            |
-| Note that in CESSDA Vocabulary Service, the hierarchy in the Code value is introduced by the system. The user only enters the code value for the particular code itself (e.g. Continuous). **When the item is made a 'child' of another item, the system adds the upper level, i.e. the hierarchy,** to the code value automatically(Longitudinal.Panel.Continuous).                                    |
 
 ### CV name (human-readable title of the CV)
 
@@ -158,10 +137,37 @@ will retain the CV.
 
 'Add code' allows you to add codes (terms) within the CV. The system
 adds the new code to the end of the vocabulary. Complete the 'Code
-value' field using the rules stated above, add the
+value' field, add the
 descriptive term and definition, and click Save. If you like to see
 the code on one line in the Details tab, you can extend column length
 by dragging on the line.
+
+Code values are created in the SL and are the same across languages,
+this way they function as identifiers for the codes.
+DDI Alliance and CESSDA use code values based on human readable descriptive terms.
+However, this has the consequence that if a descriptive term changes, the code value is changed as well.
+This makes the code values less useful and  persistent as identifiers.
+It is recommended for other agencies to use ‘meaningless’ code values that do not need to be changed, e.g. GUIDs.
+Code value changes should be extremely rare.
+The system requires code values to be alphanumeric, but '+' '-' ':' are accepted as well.
+
+Guidelines for creating code values for DDI Alliance and CESSDA:
+
+A code value is a single word or a concatenation of several words.
+
+- Each word starts with an upper case character.
+- Only alphanumeric characters are allowed, as well as: '+' '-' ':'
+- No slashes (/) are allowed in the code value: they should be replaced with ‘Or’, e.g. EventOrProcess,
+  or left out altogether, if it seems a better alternative.
+- No abbreviations are allowed. Only a few exceptions are allowed in the case of acknowledged abbreviation code lists,
+  such as the two-letter ISO code for the US.
+
+Code values should be not too long, to ensure readability.
+There is no hard rule, but it is reasonable to use no more than 5 words and 50 characters.
+If spaces are added within a code, the system will automatically remove them.
+
+The code value is just a code value, and its purpose is to be machine-actionable.
+Search interfaces should search on the list of captions (descriptive terms) and/or definitions i.e. the human-readable part.
 
 ## Creating a hierarchy
 
@@ -170,7 +176,8 @@ Then ‘Move code’ action can be used to create a hierarchy.
 
 **Note that in the code value element only the value for the
 individual term is to be entered in the code pop-up; the hierarchy in
-the code (i.e. broader term code value) is added by the system.**
+the code (i.e. broader term code value) is automatically added by the
+system when the user uses the functionality ‘Move code’.**
 
 Using 'Move code': Click on the code in the table in the Details tab, and
 choose 'Move code' from the action buttons. In the moving pop-up,
@@ -189,7 +196,7 @@ If you now want *CodeRed* to be another child of *CodeGreen* but to
 be placed above *CodeYellow*, click on *CodeRed* in the Details tab
 table, and select 'Move code' from the actions. In the moving pop-up,
 click on *CodeGreen.CodeYellow* and select 'Insert before' as the
-action. You can now see *CodeYellow* in its right place as a child
+action. You can now see *CodeRed* in its right place as a child
 above *CodeYellow*. Remember to save.
 
 ![Image 7](images/image7.png "Image 7")
@@ -203,8 +210,8 @@ translations.
 
 All edit buttons for a code will appear when you click on a code in
 the table. Term-level values of the code are editable, unlike the
-CV-level Short Name (see above). Descriptive terms and definitions can
-be edited as well.
+CV-level Short Name (see the CV Short Name section above).
+Descriptive terms and definitions can be edited as well.
 
 ![Image 8](images/image8.png "Image 8")
 
@@ -218,22 +225,16 @@ rearrange the hierarchy later.
 If entering codes from an already existing controlled vocabulary, you
 can enter the codes by using the 'Import codes from CSV' functionality
 (see [Import codes from CSV section](import-from-csv.html) for step by step details of how to do this).
-This is quite complicated, so contact the Content Contact first.
+This is quite complicated, so contact the Service Owner first.
 
 ![Image 9](images/image9.png "Image 9")
 
 ## Reviewing the CV
 
 Once all the codes have been added, ordered and any changes have been
-made the CV is ready to be reviewed by others with relevant roles.
-People with contributor roles can view and amend the CV in 'Draft'
-status.
-Alternatively, you can download your draft vocabulary in PDF or HTML
+made the CV is ready to be reviewed. You can download your draft vocabulary in PDF or HTML
 format in the ‘Export/Download’ tab  and ask others to review it.
-
 When the vocabulary has been reviewed, change the status to 'Review'.
-Now persons with a contributor status can view the vocabulary but no
-longer edit it, only the admin can.
 
 ![Image 12](images/image12.png "Image 12")
 

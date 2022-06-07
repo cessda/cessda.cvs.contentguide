@@ -7,13 +7,14 @@ nav_order: 000
 
 # {{ page.title }}
 
-This is the Editor User Guide for for version 2.1.0 of the [CESSDA Vocabulary Service](https://vocabularies.cessda.eu/).
+This is the Editor User Guide for for version 2.2.0 of the [CESSDA Vocabulary Service](https://vocabularies.cessda.eu/).
 
 This guide covers the use of the CESSDA Vocabulary Service by users with the ‘Editor’ role.
 It provides information on how to add a controlled vocabulary (CV) and its subsequent maintenance.
 
 Each controlled vocabulary is created in a source language (SL).
-Both CESSDA and DDI use English as the source language.
+Both CESSDA and DDI use English as the source language,
+but other agencies may have other source languages.
 Once an SL of a CV has been published, a translation into another language, hereafter referred to as ‘target language’ (TL),
 can be produced.
 A vocabulary can be translated into multiple languages.
