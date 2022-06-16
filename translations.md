@@ -157,8 +157,7 @@ If it is a short vocabulary, it is safer to copy and paste the translations.
 
 Once you have translated the descriptive terms and definitions, and
 are happy with your translations, you can make an export of your draft CV
-and ask people to comment on that. It removes the need to give them
-access rights and roles.
+and ask people to comment on that.
 
 ![Image 23](images/image23.png "Image 23")
 
