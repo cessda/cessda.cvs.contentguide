@@ -23,4 +23,4 @@ Check after publication that the URI has appeared and is correct. If
 they are not, contact the Service Owner. Do not edit them here.
 
 In TL, you can also add or edit the translating agency and a link to
-it in this tab. This does not affect versioning.
+it in this tab [forthcoming]. This does not affect versioning.

@@ -26,7 +26,7 @@ user role, these may vary).
   including options to add a new CV, add a translation,
   create a new version and delete a version of the vocabulary or the whole vocabulary.
 
-For now, Choose 'Add CV'.
+For now, choose 'Add CV'.
 
 A new draft with a version number 1.0 DRAFT is created. You can edit
 this draft using the editing buttons.
@@ -60,7 +60,7 @@ saving it.
 
 The short name can be based on the human readable vocabulary name.
 For instance, the short name of Mode of Collection vocabulary would be ‘ModeOfCollection’.
-It is formed by putting the words together and starting each word with an upper case character.
+It is formed by putting the words together and starting each word with an uppercase character.
 The system only allows alphanumeric characters, as well as '+' '-' ':' characters.
 Using abbreviations is not recommended.
 
@@ -155,7 +155,7 @@ Guidelines for creating code values for DDI Alliance and CESSDA:
 
 A code value is a single word or a concatenation of several words.
 
-- Each word starts with an upper case character.
+- Each word starts with an uppercase character.
 - Only alphanumeric characters are allowed, as well as: '+' '-' ':'
 - No slashes (/) are allowed in the code value: they should be replaced with ‘Or’, e.g. EventOrProcess,
   or left out altogether, if it seems a better alternative.
