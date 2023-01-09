@@ -16,23 +16,29 @@ you to add links, tables etc.
 
 **Usage for DDI (and CESSDA) vocabularies.**
 
-CVs that are used within DDI have details of how they are used within
-various versions of DDI. The DDI Alliance can provide details of
-usage.
+CVs that are used with the DDI standard have information on how they are used within various versions of DDI.
 
-For example mode of collection has the following usage information:
+For example Mode of Collection vocabulary has the following usage information:
 
-DDI 3.2
+DDI-L 3.3
 
 Module name: datacollection
 
-Element name: [TypeOfModeOfCollection](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
+Element name: [TypeOfModeOfCollection](https://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
 
-DDI 2.5
+[TypeOfPretestCollectionMode](https://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfPretestCollectionMode.html)
 
-Element number: 2.3.1.6
+DDI-L 3.2
 
-Element/attribute name: [collMode](http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation_files/schemas/codebook_xsd/elements/collMode.html)
+Module name: datacollection
+
+Element name: [TypeOfPretestCollectionMode](https://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
+
+DDI-C 2.5
+
+Element/attribute name: [collMode](https://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation_files/schemas/codebook_xsd/elements/collMode.html)
+
+Element XPath: /codeBook/stdyDscr/method/dataColl/collMode
 
 You can create a hyperlink by overshadowing the text to be linked and
 by clicking on the 'link' icon ![Image 29](images/image29.png "Image 29")
@@ -47,6 +53,9 @@ automatically. Any translations of it would therefore disappear, but
 the advantage is that translators would not need to update Usage
 information manually.
 
-If you amend the usage information in the SL, it is best to copy this
-amended information to the TLs as well, at least for CESSDA and DDI
-vocabularies, or inform the Service Owner.
+If SL admin amends the usage information in the SL (in English) after publication,
+it is recommended that they copy this amended information to the TLs as well,
+at least for CESSDA and DDI vocabularies. Otherwise there will be a discrepancy between
+SL and TL usage information.
+Alternatively, they inform the Service Owner so that the Service Owner can do the
+copying or ask the TL admins to copy it.
