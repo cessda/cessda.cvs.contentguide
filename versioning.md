@@ -8,28 +8,82 @@ nav_order: 070
 
 # {{ page.title }}
 
-If a published CV needs amendments, SL Administrator makes the changes and publishes the new SL version.
-Changes can be major (substantive) or minor (non-substantive).
-A major change could be adding or deleting a code, or making changes to the code value.
-Minor changes are, for example, changing the text in a definition without altering the meaning.
-A full list of changes, both major and minor, are available on the DDI Alliance website.
-CESSDA vocabularies have the same versioning policy.
-Go to [http://www.ddialliance.org/controlled-vocabularies](http://www.ddialliance.org/controlled-vocabularies)
-and expand the Versioning Policy section.
+If a published CV needs amendments, SL admin creates a new SL version,
+makes the changes and marks the SL as ‘Ready to be translated’.
+The system produces new version TL drafts for TL admins to work on, finalise, and mark ‘Ready to publish’.
+At some point, SL admin publishes the vocabulary as a package, including the SL and all finalised TLs.
 
-For the source CV the version is made of two parts, ‘n’ and ‘m’, e.g. 2.3.
-The first part of the version number (n) shows major changes and the second (m) minor changes.
+The versioning policy is based on an intellectual, or logical assessment of the nature of the change,
+which distinguishes between major, minor and sub-minor changes in the vocabularies.
+To reflect these distinctions, the version numbering system is based on a three-level structure (examples: 1.0.0, 1.2.3).
+All version levels will always be included in the version number.
 
-When publishing a CV version, the next minor version will be suggested.
-This can be edited to be a major version change if required.
-All changes within a CV should be checked to see whether the change should be major or minor.
+A change in the first digit of the version number will indicate a major change in the controlled vocabulary.
+Major changes are any substantive amendments in the content or meaning of a vocabulary (concept scheme) or code (concept),
+as specified below. Changes in the second digit of the version number will indicate a minor change.
+Minor changes are changes in wording and  spelling in the source language, etc. (i.e., "form")
+that do not involve changes in intellectual content or meaning. Major and minor changes affect the source language only.
 
-Translated CVs are always based on a version of the source CV.
-For example, the first German translation of the English CV version 3.4 will have the version 3.4.1. -
-an extra digit is added to the end of the SL version.
+A change in the third digit will indicate a sub-minor change. Sub-minor changes are changes in content of
+language variants at vocabulary or code level, for instance, title, definition or descriptive term amendments
+in any other languages than the source language. Sub-minor changes include the addition of a new language.
 
-For translated CVs there is no difference between major and minor changes in the versioning value -
-the next version of a translated CV is created by adding one to the previous value.
-So, following the previous example, the next version of the German CV will be 3.4.2.
+Major changes that may break the backward compatibility -  **X**.0.0 first digit changes
 
-When the source CV version number changes, the translated version will start again from 1.
+- Vocabulary definition is amended with meaning change in the source language.
+- Code/concept is added.
+- Code/concept is deprecated.
+- Code is replaced by another code.
+- Code value of a concept is changed.
+- Code/concept definition change with meaning change in the source language.
+- Descriptive term change with meaning change in the source language.
+
+Minor change - 1.**X**.0 second digit changes
+
+- Vocabulary long name (title) is rephrased in the source language with no meaning change, for example, due to a typo.
+- Vocabulary definition is rephrased with no meaning change in the source language.
+- Code/concept definition is added in the source language.
+- Code/concept definition is rephrased without meaning change in the source language.
+- Descriptive term is rephrased without meaning change in the source language.
+
+Sub-minor change - 1.0.**X**  third digit changes
+
+- Changes in any other languages than the source language that affect versioning, including:
+- Vocabulary long name rephrased with no meaning change.
+- Vocabulary definition amended with meaning change.
+- Vocabulary definition rephrased with no meaning change.
+- Vocabulary definition added.
+- Code/concept definition is added.
+- Code/concept definition is amended with meaning change.
+- Code/concept definition rephrased with no meaning change.
+- Descriptive term is amended with meaning change.
+- Descriptive term rephrased with no meaning change.
+
+In addition to a change in the version number, each new version of a CV will contain language-specific version history
+on how the current CV compares to the previous version. If no version information is added for the language,
+there are no changes in the content of that language variant. The changes will be documented using the following format:
+
+CV long name rephrased: *Reponse Unit* changed to *Response Unit*
+
+CV definition amended with meaning change: *AnalysisUnit*
+
+CV definition rephrased: *ModeOfCollection*
+
+Code added: *AutomatedDataExtraction*
+
+Code deprecated: *SelfAdministeredQuestionnaire.FixedForm*, is replaced by *SelfAdministeredQuestionnaire.*
+
+Code value changed: *Interview.FaceToFace.CAPICAMI* changed to *Interview.FaceToFace.CAPIorCAMI*
+
+Code descriptive term amended with meaning change: From *Geographical* to *Geospatial*
+
+Code definition added: *Longitudinal.Panel*
+
+Code definition amended with meaning change: *Longitudinal.Panel*
+
+Code definition rephrased: *SelfAdministeredQuestionnaire.CAWI*
+
+Descriptive term rephrased: *Interview: Face-to-face: CAOI* rephrased into *Interview: Face-to-face: CAPI*
+
+Descriptive term rephrased: *Haastattelu: Kasvokkainen haastattelu: CAOI* rephrased into
+*Haastattelu: Kasvokkainen haastattelu: CAPI*  (an example in the language variant Finnish).

@@ -8,22 +8,15 @@ nav_order: 050
 
 # {{ page.title }}
 
-The copyright statement and the citation are automatically produced by the system at publication stage for SL and TL.
-Please check after publication that the citation is present and correct, you cannot see it before publication.
-If not, contact the Service Owner.
+The copyright statement and the citation are automatically produced by the system at CV
+publication both for SL and TLs. Please check after publication that the citation is present and correct,
+since you cannot see it before publication. If it needs to be edited, contact the Service Owner.
 
-Source language licence: the licence for each SL vocabulary is chosen from a drop-down list when publishing the vocabulary for the first time.
-Only the licences entered into the system are allowed and in the list.
+SL admin selects the licence in the ‘Add CV’ pop-up window when creating the vocabulary.
+Only the licences entered into the system can be selected.
+Licence information is mandatory and the system prevents saving the CV if it is not selected.
 
-Licences available in the CESSDA Vocabulary Service are entered by the Service Owner.
-SL administrators can add a default licence for the agency in the Agency profile.
-If the licence you need is not in the system, contact the Content Administrator to have it added.
-
-Licence information is mandatory and the system prevents publication if it is not entered for the CV.
-
-DDI and CESSDA vocabularies have the same licence in both source and target vocabularies (Creative Commons Attribution 4.0 International).
-When entering a translation for the first time, take care to select the same licence as SL.
-Currently, the system offers this by default.
-
-Target language licence in general: Licence information is inherited from the source.
-It can be edited if the licence for the source and target language differ.
+Licences available in the CESSDA Vocabulary Service system are entered by the Service Owner.
+SL admins can add a default licence for the agency from the licence list in the Agency profile.
+If the licence you need is not available in the system, contact the Service Owner.
+DDI and CESSDA vocabularies use the same licence (Creative Commons Attribution 4.0 International).
