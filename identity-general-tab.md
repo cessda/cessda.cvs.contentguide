@@ -15,8 +15,8 @@ entered into the Agency profile and other information relating to the
 CV. The URI cannot be seen in the DRAFT or REVIEW states before the
 vocabulary is published for the first time.
 
-Check after publication that the URI has appeared and is correct. If
-they are not, contact the Service Owner.
+Check after publication that the URI has appeared and is correct.
+If not, contact the Service Owner.
 
 In TL, you can also add or edit the translating agency and its link in this tab [function forthcoming].
 This does not affect versioning.

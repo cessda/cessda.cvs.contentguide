@@ -9,8 +9,8 @@ nav_order: 060
 # {{ page.title }}
 
 This is a simplified version of the lifecycle for creation and publication of a vocabulary.
+Vocabularies are published as a package with all finalised language content included.
 
-- Vocabularies are published as a package with all finalised language content included.
 - SL admin creates a draft version of a CV in the source language.
 - SL admin moves the status to review. The SL can still be edited.
 - SL admin finalises the vocabulary. When satisfied that the SL CV is correct, SL admin moves the status to ‘Ready to translate’.
@@ -19,7 +19,7 @@ This is a simplified version of the lifecycle for creation and publication of a 
   If the TL had been added to the vocabulary earlier, the system copies the latest TL version as a new draft TL for them to work on.
 - TL admins move the status to review. The TL can still be edited.
 - TL admins finalise their version. When satisfied that the TL is correct, the TL admin moves the status to ‘Ready to publish’.
-  The TLs in this status are frozen and cannot be edited anymore.
+  The TLs in this status are frozen and cannot be edited any more.
 - At an agreed point in time, SL admin publishes the vocabulary. The published CV contains the SL and all TLs that were
   in the status ‘Ready to publish’ at the time of publication. TLs in draft or review status are not included.
 - The CV is now visible to all users in the general search interface.

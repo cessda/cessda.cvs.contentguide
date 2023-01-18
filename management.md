@@ -36,8 +36,8 @@ You can edit this draft using the editing buttons.
 
 Choose your Agency from the drop-down list. The agency you can choose depends on your
 rights and role. If the Agency you require is not available you will
-need to discuss the possibility to add it with the Content Administrator,
-that is, the Service Owner of the CESSDA Vocabulary Service.
+need to discuss the possibility to add it with the Service Owner of the
+CESSDA Vocabulary Service.
 
 ### Language (source)
 
@@ -95,8 +95,9 @@ is best **not** to make an error in the short name code, as recreating
 the CV will mean a lot of manual copying. You can access the deleted
 CV in the Editor.
 
-If the CV already has several versions and language variants, consult Service Owner
-to discuss whether the technical admin can change the short name. It may or may not be possible.
+If the CV already has several versions and language variants,
+consult the Service Owner to discuss whether the technical admin can change the short name.
+It may or may not be possible.
 
 ### CV name (human-readable title of the CV)
 

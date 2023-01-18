@@ -151,7 +151,7 @@ published versions.
 If entering codes from an already existing controlled vocabulary, you
 can enter the codes by using the 'Import codes from CSV' functionality
 (see [Import codes from CSV section](import-from-csv.html) for step by step details of how to do this).
-This is quite challenging, so contact the Service Owner before doing this.
+This is quite challenging, so consult the Service Owner before doing this.
 If it is a short vocabulary, it is safer to copy and paste the translations.
 
 ![Image 20](images/image20.png "Image 20")
