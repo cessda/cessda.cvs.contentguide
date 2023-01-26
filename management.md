@@ -416,7 +416,7 @@ can be published later at some agreed point by the SL admin. TL admins do not ha
 When the SL is in the status ‘Ready to translate’ but there are no language variants,
 you can publish the CV straight away by clicking on the publish button.
 
-TODO: ADD Publish CV image here
+![Image 17](images/image18.png "Image 17")
 
 ## Deleting a SL CV version or the whole vocabulary
 
@@ -424,7 +424,7 @@ Deleting a version: You can delete a new, unpublished version of the CV when the
 Click on ‘Delete SL’ and choose ‘Delete SL CV and TLs v. x.x.’
 **Take care not to choose ‘Delete CV’ as this will erase all versions of the whole vocabulary and all its translations.**
 
-TODO: ADD Confirm Delete SL & TL versions IMAGE HERE
+![Image 18](images/image18.png "Image 18")
 
 Please note that this action does not change the status of the CV to the previous status
 (e.g. from READY TO TRANSLATE  to REVIEW) but drops the whole version, returning to the previous version of the CV.
