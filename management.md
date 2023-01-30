@@ -416,7 +416,7 @@ can be published later at some agreed point by the SL admin. TL admins do not ha
 When the SL is in the status ‘Ready to translate’ but there are no language variants,
 you can publish the CV straight away by clicking on the publish button.
 
-![Image 17](images/image18.png "Image 17")
+![Image 17](images/image17.png "Image 17")
 
 ## Deleting a SL CV version or the whole vocabulary
 
