@@ -93,7 +93,7 @@ the CV you wish to translate from the Editor search.
 
 Choose the 'Add translation' button to the left.
 
-![Image 17](images/image17.png "Image 17")
+![Image 5](images/image5.png "Image 5")
 
 A pop-up window will appear where you can choose the language to translate the CV into.
 The screenshots below use Danish (two-letter code - da) or Finnish (fi) examples.
@@ -118,7 +118,7 @@ You can edit the CV name, CV definition or translating agency
 information you have just added using this button on the left hand
 side of the screen.
 
-![Image 18](images/image18.png "Image 18")
+![Image 21](images/image21.png "Image 21")
 
 As this is your first ever draft translation of the vocabulary and it has never been published,
 you are not asked to enter any change types, even if you
@@ -133,7 +133,7 @@ save if you have made changes.
 To translate a code, click on the row. This turns blue and shows your
 options on the left hand side.
 
-![Image 19](images/image19.png "Image 19")
+![Image 22](images/image22.png "Image 22")
 
 The pop-up window shows the descriptive term and the definition for you to translate.
 Make your translations in the relevant fields and save.
@@ -166,7 +166,7 @@ When changes have been agreed, change the status from 'Draft' to
 
  When all is ready, move the status to ‘Ready to publish’.
 
-![Image 24](images/image24.png "Image 24")
+![Image 32](images/image32.png "Image 32")
 
 The ‘Ready to publish’ pop-up window appears.
 Do not change the licence for CESSDA or DDI vocabularies as all language variants should be published under the
@@ -216,7 +216,7 @@ You can edit CV level information, that is, the translated CV name, CV
 definition, translating agency information and vocabulary notes
 through the 'Edit TL'.
 
-![Image 18](images/image18.png "Image 18")
+![Image 33](images/image33.png "Image 33")
 
 **Make only one change at a time**, since now
 you need to add a change type in the pop-up window and you can only choose
