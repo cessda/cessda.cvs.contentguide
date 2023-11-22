@@ -32,7 +32,7 @@ DDI-L 3.2
 
 Module name: datacollection
 
-Element name: [TypeOfModeOfCollection](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
+Element name: [TypeOfModeOfCollection](https://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
 
 DDI-C 2.5
 

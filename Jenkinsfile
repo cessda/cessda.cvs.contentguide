@@ -13,20 +13,27 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 pipeline {
-	options {
-		buildDiscarder logRotator(numToKeepStr: '20')
-	}
 
 	environment {
 		productName = 'cvs'
 		componentName = 'contentguide'
-		imageTag = "${docker_repo}/${productName}-${componentName}:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
+		imageTag = "${DOCKER_ARTIFACT_REGISTRY}/${productName}-${componentName}:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
 	}
 
 	agent any
 
 	stages {
-		// Compiles documentation
+		stage('Lint Markdown') {
+			agent {
+				dockerfile {
+					filename 'jekyll.Dockerfile'
+					reuseNode true
+				}
+			}
+			steps {
+				sh 'bundle exec mdl --git-recurse .'
+			}
+		}
 		stage('Build Documentation') {
 			agent {
 				dockerfile {
@@ -34,18 +41,19 @@ pipeline {
 					reuseNode true
 				}
 			}
-			stages {
-				stage('Lint Documentation') {
-					steps {
-						sh "bundle exec rake lint"
-					}
+			steps {
+				sh 'jekyll build'
+			}
+		}
+		stage('Proof HTML') {
+			agent {
+				dockerfile {
+					filename 'jekyll.Dockerfile'
+					reuseNode true
 				}
-				stage('Build Deployable Documentation') {
-					steps {
-						sh "jekyll build"
-						// sh "bundle exec rake htmlproofer"
-					}
-				}
+			}
+			steps {
+				sh 'bundle exec rake htmlproofer'
 			}
 		}
 		stage('Build Nginx Container') {
@@ -58,7 +66,7 @@ pipeline {
 			steps {
 				sh "gcloud auth configure-docker"
 				sh "docker push ${imageTag}"
-				sh "gcloud container images add-tag ${imageTag} ${docker_repo}/${productName}-${componentName}:${env.BRANCH_NAME}-latest"
+				sh "gcloud container images add-tag ${imageTag} ${DOCKER_ARTIFACT_REGISTRY}/${productName}-${componentName}:${env.BRANCH_NAME}-latest"
 			}
 			when { branch 'main' }
 		}
