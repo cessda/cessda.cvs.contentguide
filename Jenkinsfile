@@ -64,7 +64,7 @@ pipeline {
 		}
 		stage('Push Docker Container') {
 			steps {
-				sh "gcloud auth configure-docker"
+				sh "gcloud auth configure-docker ${ARTIFACT_REGISTRY_HOST}"
 				sh "docker push ${imageTag}"
 				sh "gcloud container images add-tag ${imageTag} ${DOCKER_ARTIFACT_REGISTRY}/${productName}-${componentName}:${env.BRANCH_NAME}-latest"
 			}
