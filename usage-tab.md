@@ -22,23 +22,23 @@ For example Mode of Collection vocabulary has the following usage information:
 
 DDI-L 3.3
 
-Module name: datacollection
+Module name: `datacollection`
 
-Element name: [TypeOfModeOfCollection](https://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
+Element name: [TypeOfModeOfCollection](https://docs.ddialliance.org/DDI-Lifecycle/3.3/xmlschema/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
 
-[TypeOfPretestCollectionMode](https://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfPretestCollectionMode.html)
+[TypeOfPretestCollectionMode](https://docs.ddialliance.org/DDI-Lifecycle/3.3/xmlschema/schemas/datacollection_xsd/elements/TypeOfPretestCollectionMode.html)
 
 DDI-L 3.2
 
-Module name: datacollection
+Module name: `datacollection`
 
-Element name: [TypeOfModeOfCollection](https://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
+Element name: [TypeOfModeOfCollection](https://docs.ddialliance.org/DDI-Lifecycle/3.2/xmlschema/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
 
 DDI-C 2.5
 
-Element/attribute name: [collMode](https://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation_files/schemas/codebook_xsd/elements/collMode.html)
+Element/attribute name: [collMode](https://docs.ddialliance.org/DDI-Codebook/2.5/xmlschema/schemas/codebook_xsd/elements/collMode.html)
 
-Element XPath: /codeBook/stdyDscr/method/dataColl/collMode
+Element XPath: `/codeBook/stdyDscr/method/dataColl/collMode`
 
 You can create a hyperlink by overshadowing the text to be linked and
 by clicking on the 'link' icon ![Image 29](images/image29.png "Image 29")
