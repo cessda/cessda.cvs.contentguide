@@ -7,7 +7,7 @@ nav_order: 000
 
 # {{ page.title }}
 
-This is the Editor User Guide for version 3.5.1 of the [CESSDA Vocabulary Service](https://vocabularies.cessda.eu/).
+This is the Editor User Guide for version 3.5.2 of the [CESSDA Vocabulary Service](https://vocabularies.cessda.eu/).
 
 This guide covers the use of the CESSDA Vocabulary Service by users with the ‘Editor’ role.
 It provides information on how to add a controlled vocabulary (CV) and its subsequent maintenance.
