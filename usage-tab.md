@@ -24,7 +24,8 @@ DDI-L 3.3
 
 Module name: `datacollection`
 
-Element name: [TypeOfModeOfCollection](https://docs.ddialliance.org/DDI-Lifecycle/3.3/xmlschema/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
+Element name:
+[TypeOfModeOfCollection](https://docs.ddialliance.org/DDI-Lifecycle/3.3/xmlschema/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
 
 [TypeOfPretestCollectionMode](https://docs.ddialliance.org/DDI-Lifecycle/3.3/xmlschema/schemas/datacollection_xsd/elements/TypeOfPretestCollectionMode.html)
 
@@ -32,7 +33,8 @@ DDI-L 3.2
 
 Module name: `datacollection`
 
-Element name: [TypeOfModeOfCollection](https://docs.ddialliance.org/DDI-Lifecycle/3.2/xmlschema/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
+Element name:
+[TypeOfModeOfCollection](https://docs.ddialliance.org/DDI-Lifecycle/3.2/xmlschema/schemas/datacollection_xsd/elements/TypeOfModeOfCollection.html)
 
 DDI-C 2.5
 
